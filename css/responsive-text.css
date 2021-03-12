@@ -1,0 +1,21 @@
+body {
+    width: 940px;
+    margin: 0 auto;
+    width: 80vmax;
+}
+
+@media (max-width: 940px) {
+    html {
+        width: fit-content;
+    }
+    div {
+        width: 100%;
+    }
+    p {
+        font-size: large;
+        border: solid;
+        display: block;
+        width: 100%;
+        color: blue;
+    }
+}

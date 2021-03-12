@@ -1,0 +1,13 @@
+body {
+    width: 940px;
+    margin: 0 auto;
+}
+div {
+    border: solid;
+    width: 50%;
+    margin: auto;
+}
+img {
+    width: 100%;
+    height: auto;
+}

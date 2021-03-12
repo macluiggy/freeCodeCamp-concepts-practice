@@ -1,0 +1,35 @@
+#container {
+    text-align: center;
+    border: solid;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(207, 110, 44);
+    z-index: 2;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Roboto Mono';
+    text-align: center;
+    color: white;
+    z-index: 3;
+}
+
+img {
+    display: block;
+    position: absolute;
+    top: 1px;
+    margin: auto;
+}
+
+#img1 {
+    left: 25%;
+}
+
+#img2 {
+    left: 70%;
+}
+
+#warning {
+    vertical-align: middle;
+}

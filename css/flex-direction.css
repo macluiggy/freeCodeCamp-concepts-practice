@@ -1,0 +1,29 @@
+body {
+    width: 940px;
+    margin: 0 auto;
+    border: solid;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.normal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+li {
+    display: block;
+    border: solid;
+    width: 100px;
+    margin: 0  auto;
+    padding: 10px;
+}
+button {
+    border: solid;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
