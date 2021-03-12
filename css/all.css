@@ -1,0 +1,140 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+ul .uno {
+    order: 2;
+    flex-shrink: 1;
+}
+ul .dos {
+    order: 3;
+    flex-shrink: 2;
+}
+ul .tres {
+    order: 1;
+    flex-shrink: 3;
+}
+
+#container {
+    border: solid;
+    width: 800px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#container div {
+    border: solid;
+    width: 100px;
+    height: 100px;
+}
+
+#container2 {
+    border: solid;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+#container2 div {
+    border: solid;
+    width: 100px;
+    height: 100px;
+}
+.uno {
+    flex-shrink: 1;
+    background-color: rgb(177, 115, 23);
+}
+.dos {
+    flex-shrink: 2;
+    background-color: blueviolet;
+}
+.tres {
+    flex-shrink: 4;
+    background-color: cyan;
+}
+.cuatro {
+    flex-shrink: 6;
+    background-color: darkgoldenrod;
+}
+.cinco {
+    flex-shrink: 8;
+    background-color: darkseagreen;
+}
+#container3 {
+    border: solid;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+#container3 div {
+    border: solid;
+    width: 100px;
+    height: 100px;
+}
+#container3 .uno {
+    flex-grow: 1;
+    background-color: rgb(177, 115, 23);
+}
+#container3 .dos {
+    flex-grow: 2;
+    background-color: blueviolet;
+}
+#container3 .tres {
+    flex-grow: 4;
+    background-color: cyan;
+}
+#container3 .cuatro {
+    flex-grow: 6;
+    background-color: darkgoldenrod;
+}
+#container3 .cinco {
+    flex-grow: 8;
+    background-color: darkseagreen;
+}
+
+#container4 {
+    border: solid;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    border: solid teal;
+}
+#container4 div {
+    border: solid;
+    width: 100px;
+    height: 100px;
+}
+#container4 .uno {
+    order: 1;
+    align-self: center;
+    background-color: rgb(177, 115, 23);
+}
+#container4 .dos {
+    order: 2;
+    align-self: center;
+    background-color: blueviolet;
+}
+#container4 .tres {
+    order: 4;
+    align-self: flex-end;
+    background-color: cyan;
+}
+#container4 .cuatro {
+    order: 6;
+    align-self: flex-start;
+    background-color: darkgoldenrod;
+}
+#container4 .cinco {
+    order: 8;
+    align-self: center;
+    background-color: darkseagreen;
+}
+
