@@ -10,6 +10,8 @@
     .item3{background:PaleTurquoise;}
     .item4{background:LightPink;}
     .item5{background:PaleGreen;}
+    .item6{background:khaki;}
+  
   
     .container {
       font-size: 40px;
@@ -25,12 +27,45 @@
       grid-template-rows: 1fr 1fr 1fr;
       grid-gap: 10px;
     }
-    .item5 {
+    .container .item5 {
       grid-area: 2/1/ span 1/ span 4;
       /* en que fila quieres estar/en que columna quieres estar/ cuantas lineas de columna quieres consumir/cuantas lineas de filas quieres consumir */
     }
+    .container2 {
+      
+      border: solid;
+      font-size: 2.5em;
+      width: 90%;
+      margin: 0 auto;
+      background-color: antiquewhite;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(90px, 30fr));
+      margin-bottom: 1em;
+      display: none;
+    }
+    .container2 .item2 {
+      grid-area: 2/1/ span 3/ span 1;
+    }
+
+    .container3 {
+      margin: 20px;
+      border: solid;
+      font-size: 2.5em;
+      width: 90%;
+      margin: 0 auto;
+      background-color: antiquewhite;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(3em, 6fr));
+    }
+    .item {
+      height: 3em;
+    }
   </style>
   
+  
+  <title>CSS GRID</title>
+</head>
+<body>
   <div class="container">
     <div class="item1">1</div>
     <div class="item2">2</div>
@@ -38,9 +73,23 @@
     <div class="item4">4</div>
     <div class="item5">5</div>
   </div>
-  <title>CSS GRID</title>
-</head>
-<body>
-  
+
+  <div class="container2">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+    <div class="item5">5</div>
+    <div class="item6 ">6</div>
+  </div>
+
+  <div class="container3">
+    <div class="item1 item">1</div>
+    <div class="item2 item">2</div>
+    <div class="item3 item">3</div>
+    <div class="item4 item">4</div>
+    <div class="item5 item">5</div>
+    <div class="item6 item">6</div>
+  </div>
 </body>
 </html>
